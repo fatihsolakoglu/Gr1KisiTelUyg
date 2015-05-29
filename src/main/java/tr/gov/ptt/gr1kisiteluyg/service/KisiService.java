@@ -20,6 +20,6 @@ public class KisiService {
     
     public List<Kisi> kisiListele()
     {
-        return kisiFacade.findAll();
+        return kisiFacade.kisiListeleSirali();
     }
 }
