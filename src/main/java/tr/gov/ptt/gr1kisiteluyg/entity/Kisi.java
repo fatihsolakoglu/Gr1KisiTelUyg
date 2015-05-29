@@ -48,7 +48,7 @@ public class Kisi implements Serializable {
     @Column(name = "NO")
     
     @SequenceGenerator(name = "kisiseq",sequenceName = "SEQ_KISI",allocationSize = 1)
-    @GeneratedValue(generator = "kisiseq0",strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(generator = "kisiseq",strategy = GenerationType.SEQUENCE)
     private BigDecimal no;
     @Size(max = 20)
     @Column(name = "AD")
